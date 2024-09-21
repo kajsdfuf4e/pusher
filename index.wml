@@ -1,14 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<WML>
-  <card id="mainCard">
-    <title>main</title>
-    <p>old</p>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.3//EN" "http://www.wapforum.org/DTD/wml13.dtd">
+<wml>
+  <card id="mainCard" title="Топики">
     <p>
-      <a href="page1.wml">page1 1</a>
+      <b>Выберите топик:</b>
     </p>
     <p>
-      <a href="page2.wml">page 2</a>
+      <a href="#topic1">Топик 1</a><br />
+      <a href="#topic2">Топик 2</a><br />
+      <a href="#topic3">Топик 3</a><br />
+      <a href="#inputCard">Ввод текста</a>
     </p>
   </card>
-</WML>
 
+  <card id="topic1" title="Топик 1">
+    <p>
+      Это текст для топика 1. Здесь вы можете узнать о различных аспектах темы.
+    </p>
+    <p>
+      <a href="#mainCard">Назад</a>
+    </p>
+  </card>
+
+  <card id="topic2" title="Топик 2">
+    <p>
+      Это текст для топика 2. Здесь вы найдете другую информацию по теме.
+    </p>
+    <p>
+      <a href="#mainCard">Назад</a>
+    </p>
+  </card>
+
+  <card id="topic3" title="Топик 3">
+    <p>
+      Это текст для топика 3. Здесь обсуждаются дополнительные детали.
+    </p>
+    <p>
+      <a href="#mainCard">Назад</a>
+    </p>
+  </card>
+
+  <card id="inputCard" title="Ввод текста">
+    <p>
+      <b>Введите текст:</b>
+    </p>
+    <form>
+      <input name="userInput" type="text" />
+      <br />
+      <input type="submit" value="Отправить" />
+    </form>
+    <p>
+      <a href="#mainCard">Назад</a>
+    </p>
+  </card>
+</wml>
