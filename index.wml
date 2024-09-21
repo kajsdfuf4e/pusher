@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WML>
+  <card id="mainCard">
+    <title>Главная страница</title>
+    <p>Добро пожаловать на главную страницу!</p>
+    <p>
+      <a href="page1.wml">Перейти к странице 1</a>
+    </p>
+    <p>
+      <a href="page2.wml">Перейти к странице 2</a>
+    </p>
+  </card>
+</WML>
+
