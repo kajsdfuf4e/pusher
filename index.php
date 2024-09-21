@@ -2,7 +2,7 @@
 
 for (;;) {
 
-  echo '1';
+  echo '#######';
   flush();
   sleep(1);
 }
