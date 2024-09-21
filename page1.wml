@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WML>
   <card id="page1Card">
-    <title>Страница 1</title>
-    <p>Это первая страница.</p>
+    <title>page 1</title>
+    <p>page 1</p>
     <p>
-      <a href="index.wml">Вернуться на главную</a>
+      <a href="index.wml">back</a>
     </p>
     <p>
-      <a href="page2.wml">Перейти к странице 2</a>
+      <a href="page2.wml">page2:</a>
     </p>
   </card>
 </WML>
